@@ -1,7 +1,8 @@
 # Prerequisites
-[Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.  
+[Angular CLI](https://github.com/angular/angular-cli) version 8.0.3 (latest)  
+[NodeJS](https://nodejs.org/en/) version at least 10.9   
   
- If other version is installed, you can create a temporary project with Angular 8 and use this local setup from folder 'my-project'':   
+ If other Angular CLI version is installed, you can create a temporary project with Angular 8 and use this local setup from folder 'my-project'':   
 `npx -p @angular/cli@8 ng new my-project`
 
 # Download and run
