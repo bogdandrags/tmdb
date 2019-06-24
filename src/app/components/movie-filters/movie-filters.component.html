@@ -1,0 +1,6 @@
+<div class="movie-filters">
+    Rating at least:
+    <select (change)="change($event.target.value)" [value]="rating">
+        <option *ngFor="let r of ratings">{{r}}</option>
+    </select>
+</div>

@@ -1,0 +1,12 @@
+<div class="movie-tile">
+  <div class="movie-image">
+      <img src="{{basePath}}/{{movie.poster_path}}" alt="{{movie.title}} poster" />
+  </div>
+  <app-movie-rating [rating]="movie.vote_average"></app-movie-rating>
+  <div class="movie-title">
+      {{movie.title}}
+  </div>
+  <div class="movie-genres">
+      {{movie.genres.join(', ')}}
+  </div>
+</div>

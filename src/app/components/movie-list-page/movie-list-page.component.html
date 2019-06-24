@@ -1,0 +1,4 @@
+
+<app-movie-filters [rating]="rating" (onChange)="applyFilter($event)"></app-movie-filters>
+<app-movie-list *ngIf="movies" [movies]="movies"></app-movie-list>
+<div class="no-results" *ngIf="movies && movies.length == 0">No movies rated over {{rating}} stars</div>

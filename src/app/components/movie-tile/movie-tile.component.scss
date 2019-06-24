@@ -1,0 +1,35 @@
+:host {
+    width: 210px;
+    display: block;
+    margin: 16px;
+    background-color: white;
+    text-align: center;
+
+    .movie-tile {
+        border-radius: 3px;
+        border-width: 0;
+        box-shadow: 0 1px 5px -1px rgba(0,0,0,.13);
+        padding: 16px;
+
+        .movie-image {
+            margin: 0 auto;
+
+            img {
+                height: 225px;
+            }
+        }
+
+        .movie-title {
+            font-weight: bold;
+            height: 48px;
+            padding: 8px;
+        }
+
+        .movie-genres {
+            font-size: 75%;
+            height: 36px;
+            margin: 0 -16px;
+        }
+    }
+}
+
